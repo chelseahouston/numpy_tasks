@@ -83,6 +83,12 @@ for a in listB:
 print(listA)
 print(listB)
 # 5 is duplicate but still prints - unsure why??
+print("\n") # SEPARATE TWO DIFFERENT METHODS ---
+# using set() function to remove duplicates but combines a and b into one single array (array c)
+arrayC = np.r_[arrayA, arrayB]
+print(arrayC)
+listAB = list(set(arrayC))
+print(listAB)
 
 print("\n") # SEPARATE TASKS
 # ---------------------------------------------------------------------------
